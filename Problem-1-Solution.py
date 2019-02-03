@@ -8,10 +8,9 @@ for x in range(3, user_input, 3):
     if x % 5:
         sum += x
     counter += 1
-    if x + int(2 * counter) < user_input:
-        print(str(x + int(2 * counter)))
-        sum += x + int(2 * counter)
-
+    number = x + int(2 * counter)
+    if number < user_input:
+        sum += number
 
 print("\nSum of all multiples of three and five between 1 and " + str(user_input) + " is " + str(sum) + ", calculated "\
         + "in " + str(counter) + " loops!")
