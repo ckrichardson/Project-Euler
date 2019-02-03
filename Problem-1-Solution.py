@@ -5,7 +5,7 @@ print("Enter the number for up until we want to find all multiples of three and 
 user_input = int(input())
 
 x = 0
-counter = 0
+counter = 1
 
 for x in range(0, user_input, 3):
 
